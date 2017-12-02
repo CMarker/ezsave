@@ -1,4 +1,9 @@
-var ezsave = require('./index');
+## EZSave
+
+An easy way to persist objects to disk and load.
+
+```
+var ezsave = require('ezsave');
 
 var test = Object.loadSync("test.json"); // load object from file
 test.bears = "hi5"; //modify object
@@ -10,3 +15,4 @@ var test2_2 = {"existing_keys": 1}.appendSync("test2.json"); //append keeps exis
 var test3 = 4; //works with numbers
 test3.saveSync("test3.json");
 var test4 = Object.loadSync("test3.json");
+```
