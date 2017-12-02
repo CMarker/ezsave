@@ -1,0 +1,11 @@
+{
+  "name": "ezsave",
+  "version": "0.0.1",
+  "description": "An easy way to persist objects to disk and load.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
